@@ -102,4 +102,6 @@ theme: geek
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+    type: 'git'
+    repo: git@github.com:isettle/isettle.github.io.git
+    branch: web-pages
